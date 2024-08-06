@@ -1,79 +1,101 @@
 ![logo](https://github.com/MFaisal125/Cyber-Security-Course/blob/main/Cybersecurity%20Specialist.png)
-# Cyber-Security-Course
-Cyber Security Course
-
-Course Overview:
-The Cyber Security Course is designed to equip students with the essential skills and knowledge required to protect information systems from cyber threats. This course covers a broad range of topics, from the fundamentals of network security to advanced cyber defense techniques, ensuring that students are well-prepared to handle real-world cyber security challenges.
+# Cyber-Security-Learner
 
 Course Objectives:
-
-Understand the principles and practices of information security.
-Learn about various types of cyber threats and attacks.
-Gain proficiency in implementing security measures to protect networks, systems, and data.
-Develop skills in identifying vulnerabilities and responding to security incidents.
+Understand the fundamental principles and practices of cyber security.
+Identify and analyze various types of cyber threats and attacks.
+Implement effective security measures to protect networks, systems, and data.
+Develop skills to identify vulnerabilities and respond to security incidents.
 Explore legal, ethical, and regulatory aspects of cyber security.
 Course Content:
 
 Introduction to Cyber Security
 
-Definition and importance of cyber security
-History and evolution of cyber security
-Cyber security terminologies
+Topics Covered:
+Importance and scope of cyber security
+Evolution and history of cyber threats
+Fundamental cyber security terminologies
+Learning Resources:
+"Cybersecurity for Beginners" by Raef Meeuwisse
+Online articles and tutorials (e.g., Cybersecurity & Infrastructure Security Agency)
 Network Security
 
-Network architecture and protocols
+Topics Covered:
+Network architecture, protocols, and design
 Firewalls, VPNs, and IDS/IPS
 Securing wireless networks
+Learning Resources:
+"Network Security Essentials" by William Stallings
+Online courses (e.g., Cisco Networking Academy)
 Threats and Attacks
 
-Malware types and characteristics
+Topics Covered:
+Malware: viruses, worms, trojans, etc.
 Phishing, social engineering, and insider threats
 Denial of Service (DoS) and Distributed Denial of Service (DDoS) attacks
+Learning Resources:
+"The Art of Deception" by Kevin Mitnick
+Online security threat databases (e.g., MITRE ATT&CK Framework)
 Cryptography
 
+Topics Covered:
 Principles of cryptography
 Symmetric and asymmetric encryption
 Public Key Infrastructure (PKI)
+Learning Resources:
+"Cryptography and Network Security" by William Stallings
+Online courses (e.g., Coursera's Cryptography courses)
 Security Policies and Procedures
 
+Topics Covered:
 Developing and implementing security policies
 Security awareness and training
 Incident response planning
+Learning Resources:
+"Security Policies and Implementation Issues" by Robert Johnson
+NIST's Computer Security Resource Center (CSRC)
 Vulnerability Management
 
+Topics Covered:
 Vulnerability assessment and penetration testing
 Common vulnerabilities and exposures (CVEs)
 Tools and techniques for vulnerability management
+Learning Resources:
+"The Basics of Hacking and Penetration Testing" by Patrick Engebretson
+Online platforms (e.g., OWASP, Metasploit)
 Risk Management
 
-Identifying and assessing risks
+Topics Covered:
+Risk identification and assessment
 Risk mitigation strategies
 Business continuity and disaster recovery planning
+Learning Resources:
+"Risk Management Framework" by James Broad
+ISO/IEC 27001 standards
 Ethical Hacking
 
+Topics Covered:
 Ethical hacking methodologies
 Legal and ethical considerations
 Conducting ethical hacking assessments
+Learning Resources:
+"Hacking: The Art of Exploitation" by Jon Erickson
+Certified Ethical Hacker (CEH) training materials
 Security in Emerging Technologies
 
-Cloud Security
+Topics Covered:
+Cloud security
 Internet of Things (IoT) security
 Mobile security
+Learning Resources:
+"Cloud Security and Privacy" by Tim Mather
+Online articles and whitepapers (e.g., IoT Security Foundation)
 Cyber Security Laws and Regulations
 
+Topics Covered:
 Overview of cyber security laws
 Regulatory compliance (e.g., GDPR, HIPAA)
 Case studies of legal issues in cyber security
-Course Duration:
-This course is designed to be completed over 12 weeks, combining lectures, hands-on labs, and practical projects.
-
-Who Should Enroll:
-
-IT professionals seeking to specialize in cybersecurity
-Students pursuing a career in information security
-Professionals looking to enhance their knowledge of cybersecurity practices
-Prerequisites:
-A basic understanding of computer networks and operating systems is recommended.
-
-Certification:
-Upon completing the course, students will receive a certification in Cyber Security, validating their expertise and readiness to tackle cybersecurity challenges in various professional settings.
+Learning Resources:
+"Cybersecurity Law" by Jeff Kosseff
+Government websites (e.g., GDPR, HIPAA official sites)
