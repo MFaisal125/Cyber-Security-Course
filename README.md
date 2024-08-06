@@ -1,7 +1,7 @@
 ![logo](https://github.com/MFaisal125/Cyber-Security-Course/blob/main/Cybersecurity%20Specialist.png)
 # Cyber-Security-Learner
 
-# Course Objectives:
+Course Objectives:
 Understand the fundamental principles and practices of cyber security.
 Identify and analyze various types of cyber threats and attacks.
 Implement effective security measures to protect networks, systems, and data.
