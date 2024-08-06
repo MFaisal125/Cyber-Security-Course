@@ -1,0 +1,146 @@
+# File and Directory Management
+
+ls - List directory contents
+cd - Change directory
+pwd - Print working directory
+cp - Copy files and directories
+mv - Move or rename files and directories
+rm - Remove files or directories
+mkdir - Create a new directory
+rmdir - Remove an empty directory
+touch - Create an empty file or update the timestamp of a file
+find - Search for files in a directory hierarchy
+locate - Find files by name
+updatedb - Update the database for the locate command
+du - Estimate file space usage
+df - Report file system disk space usage
+
+# Text Processing
+
+cat - Concatenate and display file content
+less - View file content one screen at a time
+more - View file content one screen at a time
+head - Output the first part of files
+tail - Output the last part of files
+grep - Search text using patterns
+awk - Pattern scanning and processing language
+sed - Stream editor for filtering and transforming text
+sort - Sort lines of text files
+cut - Remove sections from each line of files
+wc - Print newline, word, and byte counts for each file
+
+# File Compression and Archiving
+
+tar - Archive files
+gzip - Compress or decompress named files
+gunzip - Decompress gzip files
+bzip2 - Compress files using the Burrows-Wheeler block sorting text compression algorithm
+bunzip2 - Decompress bzip2 files
+zip - Package and compress files
+unzip - Extract compressed files from a ZIP archive
+xz - Compress files using the LZMA algorithm
+unxz - Decompress xz files
+
+# System Information
+
+uname - Print system information
+top - Display tasks and system resource usage
+htop - Interactive process viewer
+ps - Report a snapshot of current processes
+free - Display amount of free and used memory
+uptime - Tell how long the system has been running
+whoami - Print the current user ID and name
+id - Print user and group information
+hostname - Show or set the system's host name
+dmesg - Print kernel ring buffer messages
+lshw - List hardware
+lsblk - List information about block devices
+lscpu - Display CPU architecture information
+
+# Networking
+
+ifconfig - Configure network interfaces
+ip - Show/manipulate routing, devices, policy routing, and tunnels
+ping - Send ICMP ECHO_REQUEST to network hosts
+netstat - Print network connections, routing tables, interface statistics
+traceroute - Print the route packets take to a network host
+nslookup - Query Internet name servers interactively
+dig - DNS lookup
+curl - Transfer data from or to a server
+wget - Non-interactive network downloader
+nmap - Network exploration tool and security scanner
+arp - Display or manipulate the ARP cache
+route - Show/manipulate the IP routing table
+
+# Package Management
+
+apt-get - APT package handling utility
+apt-cache - Query the APT cache
+dpkg - Debian package manager
+apt - Advanced Package Tool
+aptitude - Terminal-based apt front-end
+
+# Process Management
+
+kill - Send a signal to a process
+pkill - Kill processes by name
+killall - Kill processes by name
+bg - Resume a suspended job in the background
+fg - Bring a job to the foreground
+nohup - Run a command immune to hangups, with output to a non-tty
+jobs - List active jobs
+ps aux - Show all running processes
+
+# User and Group Management
+
+useradd - Create a new user
+usermod - Modify a user account
+passwd - Update a user's password
+su - Substitute user identity
+sudo - Execute a command as another user
+groupadd - Add a new group
+groupdel - Delete a group
+groupmod - Modify a group
+chown - Change file owner and group
+chmod - Change file permissions
+
+# Disk Management
+
+fdisk - Partition table manipulator for Linux
+mkfs - Build a Linux file system
+mount - Mount a file system
+umount - Unmount file systems
+lsblk - List information about block devices
+parted - A partition manipulation program
+
+# Security Tools (Kali Linux Specific)
+
+nmap - Network exploration tool and security scanner
+metasploit - Advanced open-source platform for developing, testing, and using exploit code
+aircrack-ng - Crack WEP and WPA-PSK keys
+sqlmap - Automatic SQL injection tool
+burpsuite - Integrated platform for performing security testing of web applications
+dirb - Web content scanner
+gobuster - Directory/file & DNS busting tool written in Go
+john - Password cracking tool
+hydra - Password cracking tool
+wireshark - Network protocol analyzer
+
+# System Administration
+
+systemctl - Control the systemd system and service manager
+service - Run a System V init script
+journalctl - Query and display messages from the journal
+crontab - Schedule periodic jobs
+at - Schedule commands to be executed at a later time
+shutdown - Bring the system down
+reboot - Reboot the system
+init - Process control initialization
+
+# Miscellaneous
+
+alias - Create or display aliases
+history - Show command history
+man - Display the manual for a command
+chmod - Change file mode bits
+echo - Display a line of text
