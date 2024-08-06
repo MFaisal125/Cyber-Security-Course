@@ -144,3 +144,118 @@ history - Show command history
 man - Display the manual for a command
 chmod - Change file mode bits
 echo - Display a line of text
+
+1. Network Analysis
+a. ifconfig / ip
+
+Usage:
+ifconfig - Display or configure network interfaces.
+ip addr show - Show network interfaces and their IP addresses.
+ip link show - Show network interfaces' link layer information.
+Example:
+ifconfig - To view network interfaces and their IP configurations.
+ip addr show - To display IP addresses assigned to interfaces.
+b. ping
+
+Usage:
+Send ICMP ECHO_REQUEST packets to a host to check connectivity.
+Example:
+ping 192.168.1.1 - To test the reachability of a device at the IP address.
+c. netstat
+
+Usage:
+Display network connections, routing tables, interface statistics.
+Example:
+netstat -tuln - To list all listening ports and associated addresses.
+d. traceroute / tracepath
+
+Usage:
+traceroute - Trace the path packets take to a network host.
+tracepath - Trace the path to a network host, showing each hop.
+Example:
+traceroute www.example.com - To determine the route packets take to reach example.com.
+e. nmap
+
+Usage:
+Network exploration tool used for scanning and enumerating network devices and services.
+Example:
+nmap -sP 192.168.1.0/24 - To perform a ping scan on a subnet to discover active devices.
+nmap -sS -p 1-65535 192.168.1.1 - To perform a SYN scan on all ports of a specific IP address.
+2. Vulnerability Assessment
+a. nikto
+
+Usage:
+Web server scanner that detects vulnerabilities and misconfigurations.
+Example:
+nikto -h http://192.168.1.1 - To scan a web server for vulnerabilities.
+b. sqlmap
+
+Usage:
+Automatic SQL injection and database takeover tool.
+Example:
+sqlmap -u "http://example.com/page.php?id=1" --dbs - To enumerate databases through an SQL injection vulnerability.
+c. dirb / gobuster
+
+Usage:
+Tools for brute-forcing directories and files on a web server.
+dirb - Directory brute-forcing tool.
+gobuster - Directory/file & DNS busting tool.
+Example:
+dirb http://example.com - To find hidden directories and files on a web server.
+gobuster dir -u http://example.com -w /usr/share/wordlists/dirb/common.txt - To perform directory brute-forcing with a wordlist.
+d. metasploit
+
+Usage:
+Framework for developing, testing, and using exploit code.
+Example:
+msfconsole - Start the Metasploit Framework console.
+search exploit/windows/smb/ms17_010_eternalblue - Search for a specific exploit within Metasploit.
+3. Password Cracking
+a. john
+
+Usage:
+Password cracking tool that supports various encryption algorithms.
+Example:
+john --wordlist=/usr/share/wordlists/rockyou.txt hashes.txt - To crack passwords using a wordlist.
+b. hydra
+
+Usage:
+Fast network logon cracker supporting various protocols.
+Example:
+hydra -l admin -P /usr/share/wordlists/rockyou.txt ssh://192.168.1.1 - To perform a brute-force attack on SSH login.
+4. Wireless Network Hacking
+a. airmon-ng
+
+Usage:
+Tool for enabling monitor mode on wireless interfaces.
+Example:
+airmon-ng start wlan0 - To put the wlan0 interface into monitor mode.
+b. airodump-ng
+
+Usage:
+Capture packets from wireless networks for analysis.
+Example:
+airodump-ng wlan0mon - To start capturing packets on the monitor mode interface.
+c. aircrack-ng
+
+Usage:
+Crack WEP and WPA-PSK keys using captured packets.
+Example:
+aircrack-ng -w /usr/share/wordlists/rockyou.txt capture.cap - To crack WPA/WPA2 keys from a captured handshake.
+5. Exploitation
+a. msfconsole
+
+Usage:
+Main interface for Metasploit Framework to develop and execute exploits.
+Example:
+msfconsole - Launch the Metasploit console.
+use exploit/windows/smb/ms17_010_eternalblue - Select a specific exploit module.
+set RHOSTS 192.168.1.1 - Set the target IP address.
+run - Execute the exploit.
+b. meterpreter
+
+Usage:
+A powerful payload within Metasploit used for post-exploitation.
+Example:
+sessions - List active Meterpreter sessions.
+sysinfo - Retrieve system information from a Meterpreter session.
