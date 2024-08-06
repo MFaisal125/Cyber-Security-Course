@@ -1,4 +1,4 @@
-![logo](https://github.com/MFaisal125/Cyber-Security-Course/blob/main/Cybersecurity%20Specialist.png)
+![logo](https://github.com/MFaisal125/Cyber-Security-Course/blob/main/Kali%20Images/Cybersecurity%20Specialist.png)
 # Cyber-Security-Learner
 
 Course Objectives:
